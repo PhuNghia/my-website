@@ -1,6 +1,6 @@
 .bg-img {
     /* The image used */
-    background-image: url("https://tuam-react.envytheme.com/_next/static/images/main-banner1-e9dbf517a3d615a2daf4288a20ab9a8d.jpg");
+    background-image: url("https://tuam-react.envytheme.com/_next/static/images/main-banner2-38deef8a397474048bb900f1af0aabce.jpg");
     height: 925px;
     /* Center and scale the image nicely */
     background-position: center;
@@ -33,13 +33,13 @@
   .topnav {
     overflow: hidden;
     background-color: #fff;
-    padding: 15px;
+    padding: 15px ;
     position: absolute;
     left: 0;
     top: 50px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
     box-shadow: -10px 10px rgba(255, 255, 255, 0.6);
 

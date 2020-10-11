@@ -1,0 +1,75 @@
+.aboutUs {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto
+}
+.aboutTitle {
+    border-right: 1px solid #dfdddf;
+    padding-right: 35px;
+}
+.aboutSub {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.title {
+    margin-bottom: 0;
+    font-size: 42px;
+    font-weight: 700;
+}
+.aboutCards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+     grid-column-gap: 50px;
+}
+.aboutCard {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+    padding: 30px;
+    transition: 0.5s;
+}
+.aboutCard:hover {
+    border-color: #524552;
+    background-color: #524552;
+}
+.aboutCard:hover h3 {
+ color: white;
+}
+.aboutCard:hover h3::before {
+    background-color: #ff5d22;
+}
+.aboutCard:hover .aboutIcon {
+    color: #ff5d22;
+}
+.aboutCard:hover p {
+    color: white;
+   }
+.aboutIcon {
+    font-size: 45px;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+
+}
+
+h3 {
+    position: relative;
+    padding-bottom: 13px;
+    transition: 0.5s;
+}
+h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #e9e9e9;
+    height: 2px;
+    width: 60px;
+}

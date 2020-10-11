@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="./component/origin.css"></link>
-    <link rel="stylesheet" href="./component/navbar.css"></link>
-    <link rel="stylesheet" href="./component/service.css"></link>
+    <link rel="stylesheet" href="./src/component/origin.css"></link>
+    <link rel="stylesheet" href="./src/component/navbar.css"></link>
+    <link rel="stylesheet" href="./src/component/service.css"></link>
+    <link rel="stylesheet" href="./src/component/aboutUs.css"></link>
     
     <title>Website</title>
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg></script>
@@ -19,7 +20,7 @@
         <div class="container">      
             <div class="topnav">
                 <div class="logo">
-                    <img src="./images/logo.png"/>
+                    <img src="../src/images/logo.png"/>
                 </div>
                 <div style="    display: flex;">
                     <a href="#home">Home</a>
@@ -94,7 +95,48 @@
         </div>
     </div>
 </section>
+        <!------------------>
+<section>
+    <div class="container aboutUs">
+        <div class="aboutTitle">
+            <h4 style="color:#ff5d22">About Us</h4>
+            <h2 class="title">We offer creative working environments that suit your business</h2>
+        </div>
+        <div class="aboutSub">
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid</p>
+            <button class="button btn-book">More About Us </button> 
+        </div>
+    </div>
+    <div class="container aboutCards">
+        <div class="aboutCard">
+            <i class="fas fa-laptop-house aboutIcon"></i>
+            <h3>Full-Time Offices</h3>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
+            <p  style="color:#ff5d22">Learn More</p>
+        </div>
+        <div class="aboutCard">
+            <i class="fas fa-database aboutIcon"></i>
+            <h3>Global Access</h3>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
+            <p  style="color:#ff5d22">Learn More</p>
+        </div>
+        <div class="aboutCard">
+            <i class="fas fa-desktop aboutIcon"></i>
+            <h3>Virtual Offices</h3>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
+            <p  style="color:#ff5d22">Learn More</p>
+        </div>
+    </div>
+</section>
 
 
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 </html>
