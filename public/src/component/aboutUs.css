@@ -24,6 +24,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
      grid-column-gap: 50px;
+
 }
 .aboutCard {
     text-align: center;
@@ -31,10 +32,33 @@
     border: 1px solid #e9e9e9;
     padding: 30px;
     transition: 0.5s;
+    position: relative;
+}
+
+.aboutCard  img {    
+    position: absolute;
+    left: 0;
+    top: 0;
+ 
+    width: auto !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block !important;
+    
+}
+.aboutCard  img:nth-child(2) {
+   
+    opacity: 0;
+    visibility: hidden;
 }
 .aboutCard:hover {
     border-color: #524552;
     background-color: #524552;
+}
+
+.aboutCard:hover img:nth-child(2) {
+    opacity: 1;
+    visibility: visible;
 }
 .aboutCard:hover h3 {
  color: white;
