@@ -19,12 +19,11 @@
  padding: 50px;
  color: white;
 }
-ul {
-    display: flex;
-    flex-wrap: wrap;
-
+.benefitContent > ul {
+display: flex;
+flex-wrap: wrap;
 }
-ul >li {
+.benefitContent > ul >li {
     flex: 0 0 50%;
     max-width: 50%;
     color: #e5e5e5;
