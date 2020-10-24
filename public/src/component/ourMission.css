@@ -1,0 +1,18 @@
+.ourMission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.ourMission > div > img {
+    width: 100%;
+}
+.ourMission-content {
+    background: #524552;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 67px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
